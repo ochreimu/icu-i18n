@@ -1,0 +1,11 @@
+.{
+    .name = "icui18n",
+    .version = "74.0.0", // The version should be the same as underlying ICU4C.
+
+    .dependencies = .{
+        .common = .{
+            .url = "https://github.com/ochreimu/icu-common/archive/8e4230b3f6cf6eb13c44f24baff3fb129aef420e.tar.gz",
+            .hash = "12204c34d72eeea09f850ef6721cc29de835d113c9003cd4be262c6066cbfb452c5a",
+        },
+    },
+}
